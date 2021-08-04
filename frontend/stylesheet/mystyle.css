@@ -16,11 +16,11 @@ img {
 }
 h1,
 h2 {
-  color: honeydew;
+  color: rgb(141, 14, 141);
   font-size: 28px;
   letter-spacing: 1px;
   text-align: center;
-  text-shadow: 4px 4px 1px black;
+  text-shadow: 3px 3px 1px black;
 }
 a {
   font-size: 18px;
