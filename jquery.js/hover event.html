@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <title>jquery event handlers</title>
+  <script>
+    $(document).ready (function() {
+      $("div").hover(
+        function(){
+        $(this).CSS({"background-color":"red"});
+        });
+        function(){
+          $(this).CSS({"backgrount-color":"blue"});
+        };
+        $("div").dblclick(function(){
+          $(this).CSS({"background-color":"green"});
+        });
+        $("div").click(function(){
+          $(this).CSS("background-color":"purple")
+        });
+      
+
+    });
+  </script>
+
+  <style type="text/CSS">
+    #div {height: 200px;px;
+    width: 100px;p;
+    margin:10px;
+    padding:20px;
+    background-color:pink;
+    border:1px solid black;
+    }
+    button{
+      margin: 5pt 5pt 0 0;
+    }
+  </style>
+</head>
+<body>
+  <p>click the below box to see the results</p>
+  <div id="div" click and hover event></div>
+  
+</body>
+</html>

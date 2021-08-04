@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+</head>
+<body>
+  <a id="dog" href="https://www.youtube.com/watch?v=mRf3-JkwqfU">funny puppy</a>
+  <a id="cat" href="https://www.youtube.com/watch?v=mRf3-JkwqfU">funny cat</a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    // your code goes here
+    $(document).ready(function() {
+      $("#dog").click(function(event) {
+        alert("Puppy clicked");
+      });
+      $("#cat").click(function (event) {
+        alert("Cat clicked");
+      });
+    });
+</script>
+
+</body>
+</html>
