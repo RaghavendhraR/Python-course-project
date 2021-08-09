@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#hide').click(function(){
+        $('#div').hide('swing');
+      });
+      $('#show').click(function () {
+        $('#div').show('fast');
+      });
+      $('#toggle').click(function () {
+        $('#div').toggle('slow');
+      });
+      
+     
+    });
+  </script>
+  <style type="text/css">
+  #div
+  {
+    border: 1px;
+    background-color: cadetblue;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    font-size: 24px;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+  }
+  button{
+    margin: 5pt 5pt 0 0;
+  }
+  </style>
+
+</head>
+<div id="div">Div BOx</div>
+<body>
+  <h1>jquery show and hide effects</h1>
+  <button id="show"; style="background-color: burlywood;height: 70px;width: 100px;">show</button>
+  <button id="hide" ; style="background-color: burlywood;height: 70px;width: 100px;">hide</button>
+  <button id="toggle" ; style="background-color: burlywood;height: 70px;width: 100px;">toggle</button>
+
+
+  
+</body>
+</html>
