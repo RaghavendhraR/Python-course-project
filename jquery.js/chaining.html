@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('button').click(function(){
+      $('div').css('background-color','pink').slideUp(2000,function(){
+        $(this).text('Alphabets', 'font-size:10px');
+      }).slideDown(2000);
+    });
+  });
+</script>
+</head>
+<body>
+  <button type="button" class="btn btn btn-info">click</button>
+  <div style="width: 250px;height: 150px;background-color: blanchedalmond;">
+    <ul>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+    </ul>
+    
+  </div>
+  
+  
+</body>
+</html>
